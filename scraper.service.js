@@ -4,9 +4,23 @@ const { URL } = require('url');
 
 const scrapeContent = async (url, selectors) => {
     try {
+        // Ensure URL is provided
+        if (!url) {
+            throw new Error("URL is required.");
+        }
+
         const { data } = await axios.get(url);
 
+        if (!data) {
+            throw new Error("No data returned from the URL.");
+        }
+
         const $ = cheerio.load(data);
+
+        if (!selectors || !selectors.articleSelector) {
+            throw new Error("Invalid or missing selectors.");
+        }
+
         const articles = [];
         const baseUrl = new URL(url).origin; // Dynamically get the base URL
 
@@ -27,6 +41,10 @@ const scrapeContent = async (url, selectors) => {
             const article = { title, description, link, imageUrl };
             articles.push(article);
         });
+
+        if (articles.length === 0) {
+            throw new Error("No articles found using the provided selectors.");
+        }
 
         return articles;
     } catch (error) {
