@@ -1,0 +1,22 @@
+{
+  "name": "web-scraper-bc",
+  "version": "1.0.0",
+  "description": "Simple and efficient web scraper for Node.js projects, eliminating the need for API calls with updated states.",
+  "main": "scraper.service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web scraping",
+    "scraper",
+    "Node.js",
+    "axios",
+    "cheerio"
+  ],
+  "author": "Brandon X Canady",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
