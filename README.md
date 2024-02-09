@@ -5,7 +5,7 @@ it allows you to effortlessly extract content from websites using powerful selec
 "web-scraper-easy" simplifies the process of scraping articles, news, and other web content. 
 Whether you're a beginner or an experienced developer, "web-scraper-easy" makes web scraping a breeze.
 
-
+<img width="988" alt="Screen Shot 2024-02-09 at 6 55 07 AM" src="https://github.com/BxCanady/web-scraper-bc/assets/64870171/05305f6f-58f3-4d17-909e-128a8243ad6f">
 // Import the scrapeContent function from the scraper.service.js file
 const scrapeContent = require('./scraper.service.js');
 
@@ -40,4 +40,7 @@ const getContent = async (url, selectors) => {
 // Example usage:
 // Get content from the specified URL using the commonElements selectors
 getContent('https://example.com/', commonElements);
+
+
+
 
