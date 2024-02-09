@@ -12,7 +12,18 @@ Example Use Case
 
 
 How to InStall
+Open a terminal or command prompt.
+
+Navigate to their project directory where they want to use your package.
+
+Run the following command:
+
+npm install web-scraper-bc
+
+
 <img width="446" alt="image" src="https://github.com/BxCanady/web-scraper-bc/assets/64870171/85d88e9f-03a6-45bb-8b1d-6d525fce4c8b">
+<img width="1302" alt="Screen Shot 2024-02-09 at 6 47 43 AM" src="https://github.com/BxCanady/web-scraper-bc/assets/64870171/68bd2c52-a4ec-4b5e-83b1-d9188140ec55">
+
 
 
 
