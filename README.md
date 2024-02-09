@@ -9,6 +9,13 @@ Whether you're a beginner or an experienced developer, "web-scraper-easy" makes 
 
 Example Use Case
 <img width="988" alt="Screen Shot 2024-02-09 at 6 55 07 AM" src="https://github.com/BxCanady/web-scraper-bc/assets/64870171/05305f6f-58f3-4d17-909e-128a8243ad6f">
+
+
+How to InStall
+<img width="446" alt="image" src="https://github.com/BxCanady/web-scraper-bc/assets/64870171/85d88e9f-03a6-45bb-8b1d-6d525fce4c8b">
+
+
+
 // Import the scrapeContent function from the scraper.service.js file
 const scrapeContent = require('./scraper.service.js');
 
